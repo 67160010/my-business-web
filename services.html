@@ -1,82 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>บริการ | Starbucks</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html">กลับสู่หน้าแรก</a>
-            <h1>บริการของเรา</h1>
-        </nav>
-        <hr />
 
-    </header>
-    <main>
-        <section>
-            <h3>1.บริการร้านกาแฟ</h3>
-            <p>ให้บริการกาแฟ เครื่องดื่ม และเบเกอรี่คุณภาพสูงในบรรยากาศที่เป็นกันเอง เหมาะสำหรับการพักผ่อนและทำงาน</p>
-        </section>
-        <section>
-            <h3>2.เมล็ดกาแฟและสินค้าแบรนด์</h3>
-            <p>จำหน่ายเมล็ดกาแฟ อุปกรณ์ทำกาแฟ แก้วสะสม และสินค้าที่เป็นเอกลักษณ์ของแบรนด์</p>
-        </section>
-        <section>
-            <h3>3.บริการ Starbucks Rewards</h3>
-            <p>สะสมดาวเพื่อรับสิทธิพิเศษ เช่น เครื่องดื่มฟรี โปรโมชันเฉพาะสมาชิก และสิทธิสะสมคะแนนผ่านแอป</p>
-        </section>
-        <hr />
-        <section>
-            <h2>ตารางเปรียบเทียบ</h2>
-            <table border="1">
-<thead>
-<tr>
-<th>หัวข้อ</th>
-<th>ร้านกาแฟทั่วไป</th>
-<th>Starbucks</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="col-title">คุณภาพวัตถุดิบ</th>
-<td>ใช้เมล็ดกาแฟจากหลายแหล่ง คุณภาพแตกต่างกันตามร้าน</td>
-<td>ใช้เมล็ดกาแฟระดับพรีเมียม คัดเลือกคุณภาพ และมีมาตรฐานเดียวกันทั่วโลก</td>
-</tr>
+<!-- ================= HEADER (เหมือน index / about) ================= -->
+<header id="header">
+  <div class="brand">
+    <img src="images/logo.jpg" alt="Starbucks Logo">
+    <span class="brand-name">Starbucks</span>
+  </div>
 
+  <nav>
+    <ul>
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับ</a></li>
+      <li><a href="services.html">บริการ</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
 
-<tr>
-<th class="col-title">บรรยากาศร้าน</th>
-<td>บรรยากาศขึ้นอยู่กับแต่ละร้าน ไม่มีมาตรฐานกลาง</td>
-<td>ออกแบบร้านให้รู้สึกอบอุ่น เหมาะกับการทำงาน พบปะ และพักผ่อน</td>
-</tr>
+<!-- ================= SERVICES ================= -->
+<section class="section services-page">
+  <h2 class="center-title service-title">บริการของ Starbucks</h2>
 
+  <div class="service-grid">
+    <div class="service-card service-dark">
+      <h3>เครื่องดื่มคุณภาพ</h3>
+      <p>
+        คัดสรรเมล็ดกาแฟระดับพรีเมียม
+        เพื่อรสชาติที่ดีที่สุดในทุกแก้ว
+      </p>
+    </div>
 
-<tr>
-<th class="col-title">ราคา</th>
-<td>มักมีราคาย่อมเยา เหมาะกับลูกค้าทั่วไป</td>
-<td>ราคาสูงกว่าเพราะใช้วัตถุดิบเกรดพรีเมียมและบริการที่มีมาตรฐาน</td>
-</tr>
+    <div class="service-card service-dark">
+      <h3>สั่งล่วงหน้า</h3>
+      <p>
+        สั่งผ่านแอป รับเครื่องดื่มได้ทันที
+        ไม่ต้องเสียเวลารอคิว
+      </p>
+    </div>
 
+    <div class="service-card service-dark">
+      <h3>Starbucks Rewards</h3>
+      <p>
+        สะสมดาว แลกรับเครื่องดื่มฟรี
+        และสิทธิพิเศษมากมาย
+      </p>
+    </div>
+  </div>
+</section>
 
-<tr>
-<th class="col-title">ความหลากหลายของเมนู</th>
-<td>มีเมนูตามสไตล์ของร้าน ซึ่งอาจมีจำกัด</td>
-<td>มีเมนูหลากหลาย เช่น กาแฟ ชา เบเกอรี่ เมนูตามฤดูกาล และสินค้าพิเศษ</td>
-</tr>
+<!-- ================= TABLE ================= -->
+<section class="section">
+  <h2 class="center-title service-title">ตารางเปรียบเทียบ</h2>
 
+  <div class="service-table-box">
+    <table>
+      <thead>
+        <tr>
+          <th>หัวข้อ</th>
+          <th>ร้านกาแฟทั่วไป</th>
+          <th>Starbucks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>คุณภาพวัตถุดิบ</td>
+          <td>แตกต่างกันตามร้าน</td>
+          <td>พรีเมียม มีมาตรฐาน</td>
+        </tr>
+        <tr>
+          <td>บรรยากาศ</td>
+          <td>ไม่แน่นอน</td>
+          <td>อบอุ่น เหมาะทำงาน</td>
+        </tr>
+        <tr>
+          <td>ราคา</td>
+          <td>ย่อมเยา</td>
+          <td>สูงกว่า แต่คุณภาพสูง</td>
+        </tr>
+        <tr>
+          <td>ระบบสมาชิก</td>
+          <td>บางร้านไม่มี</td>
+          <td>Rewards สะสมดาว</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
-<tr>
-<th class="col-title">ระบบสมาชิก</th>
-<td>บางร้านไม่มีระบบสะสมแต้ม หรือโปรโมชันไม่สม่ำเสมอ</td>
-<td>มี Starbucks Rewards สะสมดาว รับเครื่องดื่มฟรี และโปรโมชันเฉพาะสมาชิก</td>
-</tr>
+<!-- ================= FOOTER ================= -->
+<footer id="footer">
+  <p>&copy; 2025 Starbucks Coffee Company</p>
+</footer>
 
+<button class="back-to-top">↑</button>
 
-</tbody>
-</table>
-        </section>
-    </main>
 </body>
 </html>
+
+
+
