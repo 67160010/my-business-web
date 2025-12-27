@@ -1,46 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ติดต่อเรา | Starbucks</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-      <nav>
-        <a href="index.html">กลับหน้าแรก</a>
-        <h1>ติดต่อเรา (Contact)</h1>
-      </nav>
-    </header>
-    <main>
-      <!--4.1 Contact Form ฟอร์มติดต่อ -->
-      <section id="contact">
-        <form action="/register" method="POST">
-          <fieldset>
-            <label for="fname">ชื่อ:</label>
-            <input type="text" id="fname" name="firstname" required />
-            <label for="lname">นามสกุล:</label>
-            <input type="text" id="lname" name="lastname" required />
-            <br />
-            <label for="email">อีเมล:</label>
-            <input type="email" id="email" name="email" required />
-            <label for="phone">เบอร์โทร:</label>
-            <input type="phone" id="phone" name="phone" required />
-            <br />
-            <label for="note">รายละเอียด:</label><br />
-            <textarea name="note" id="note" rows="5" cols="50"></textarea>
-          </fieldset>
-          <br />
-          <button type="submit">ส่งข้อมูล</button>
-          <button type="reset">ยกเลิก</button>
-        </form>
-      </section>
-      <hr />
-      <section>
-        <h2>ที่อยู่บริษัท</h2>
-        <img src="images/Global Headquarters.png" alt="" width="300px">
-        <p>Starbucks Coffee Company-Global Headquarters 2401 Utah Avenue South,Seattle, WA 98134,United States </p>
-      </section>
-    </main>
+
+<!-- HEADER (เหมือนหน้าอื่น) -->
+<header id="header">
+  <div class="brand">
+    <img src="images/logo.jpg" alt="Starbucks Logo">
+    <span class="brand-name">Starbucks</span>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับ</a></li>
+      <li><a href="services.html">บริการ</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="section contact-page">
+
+  <!-- CONTACT FORM -->
+  <section class="contact-box">
+    <h2 class="contact-title">ติดต่อเรา | Contact</h2>
+    <p class="contact-sub">สามารถแสดงความคิดเห็นเพิ่มเติมได้</p>
+
+    <form class="contact-form">
+      <label>ชื่อ</label>
+      <input type="text" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>ข้อความติดต่อ</label>
+      <textarea rows="5"></textarea>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-submit">ส่งข้อความ</button>
+        <button type="reset" class="btn-reset">ยกเลิก</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- ADDRESS -->
+  <section class="address-box">
+    <h2>ที่อยู่บริษัท</h2>
+    <p>
+      Starbucks Coffee Company – Global Headquarters<br>
+      2401 Utah Avenue South, Seattle, WA 98134, USA
+    </p>
+  </section>
+
+  <section class="map-box">
+  <h2>แผนที่บริษัท</h2>
+
+  <img
+    src="images/Global Headquarters.png"
+    alt="Starbucks Global Headquarters Map"
+    style="width:50%; max-width:800px; border-radius:10px;"
+  >
+</section>
+
+</main>
+
+<footer id="footer">
+  © 2025 Starbucks Coffee Company
+</footer>
+
+<button class="back-to-top">↑</button>
+
 </body>
 </html>
