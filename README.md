@@ -16,19 +16,23 @@ root/
 ```
 
 
-# ลิงก์เข้าสู่หน้าต่างๆ
-[หน้าแรก](index.html)
-![index.html](images/index11.png)
-![index.html](images/index22.png)
+## ลิงก์เข้าสู่หน้าต่างๆ
+### หน้าแรก 
+[เปิดหน้าแรก](index.html)  
+![Home ](images/index11.png)
+![Home ](images/index22.png)
 
-[เกี่ยวกับเรา](about.html)
-![index.html](images/about11.png)
-![index.html](images/about22.png)
+### เกี่ยวกับเรา 
+[เปิดหน้าเกี่ยวกับเรา](about.html)  
+![About ](images/about11.png)
+![About ](images/about22.png)
 
-[บริการของเรา](services.html)
-![index.html](images/services1.png)
-![index.html](images/services2.png)
+### บริการของเรา 
+[เปิดหน้าบริการ](services.html)  
+![Services ](images/services1.png)
+![Services ](images/services2.png)
 
-[ติดต่อเรา](contact.html)
-![index.html](images/contact1.png)
-![index.html](images/contact2.png)
+### ติดต่อเรา 
+[เปิดหน้าติดต่อเรา](contact.html)  
+![Contact ](images/contact1.png)
+![Contact ](images/contact2.png)
