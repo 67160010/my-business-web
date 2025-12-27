@@ -1,54 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks Thailand</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/logo.jpg" alt="" width="200px" />
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">หน้าแรก</a></li>
-                <li><a href="#">เกี่ยวกับ</a></li>
-                <li><a href="#">บริการ</a></li>
-                <li><a href="#">ติดต่อ</a></li>
-            </ul>
-            <hr />
-        </nav>           
-    </header>
-    <main>
-       <section class="welcome">
-            <h1>Welcome to Starbucks !</h1>
-            <p>Starbucks แบรนด์กาแฟระดับโลกที่คัดสรรเมล็ดกาแฟคุณภาพ ส่งมอบประสบการณ์กาแฟและบริการมาตรฐานพรีเมียมให้กับลูกค้าทั่วโลก ทั้งในร้านและบริการสั่งซื้อออนไลน์</p>
-       </section> 
-       <section class="suggest">
-            <h3>และนี่คือบริการด้านต่างๆของ Starbucks</h3>
-            <ul>
-                <li>
-                    <h4>บริการเครื่องดื่มและเมนูในร้าน</h4>
-                    <p>Starbucks ให้บริการกาแฟ เครื่องดื่มปรุงสด ขนมอบ และเมนูอื่นๆ มากมาย โดยใช้วัตถุดิบคัดพิเศษ พร้อมบรรยากาศร้านที่เหมาะกับการพักผ่อน ทำงาน หรือพบปะสังสรรค์</p>
-                </li>
 
-                <li>
-                    <h4>บริการสั่งซื้อและจัดเตรียมล่วงหน้า</h4>
-                    <p>ลูกค้าสามารถสั่งเครื่องดื่มและอาหารผ่านแอป Starbucks แล้วไปรับที่ร้านได้ตามเวลาที่สะดวก รวดเร็ว ไม่ต้องเข้าคิว</p>
-                </li>
-                <li>
-                    <h4>ระบบสะสมดาวและสิทธิพิเศษ</h4>
-                    <p>สมาชิก Starbucks Rewards สามารถสะสมดาวเมื่อซื้อสินค้า แลกรับเครื่องดื่มฟรี สิทธิ์พิเศษต่างๆ และโปรโมชั่นเฉพาะสมาชิก</p>
-                </li>
-            </ul>
-       </section>
-       <hr />
+<!-- ================= HEADER ================= -->
+<header id="header">
+  <div class="brand">
+    <img src="images/logo.jpg" alt="Starbucks Logo">
+    <span class="brand-name">Starbucks</span>
+  </div>
 
-    </main>
-    <footer>
-        <p>&copy; Starbucks Coffee Company</p>
-        <p>ติดต่อ: 67160010@go.buu.ac.th | โทร: 087-654-1100</p>
-    </footer>
+  <nav>
+    <ul>
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับ</a></li>
+      <li><a href="services.html">บริการ</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Starbucks</h1>
+    <p class="hero-sub">
+      Starbucks คือแบรนด์กาแฟระดับโลก  
+      ที่มุ่งมั่นส่งมอบเครื่องดื่มคุณภาพ  
+      พร้อมประสบการณ์พรีเมียมในทุกสาขา
+    </p>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section">
+  <h2 class="center-title">บริการของ Starbucks</h2>
+
+  <div class="service-grid">
+    <div class="service-card">
+      <h3>เครื่องดื่มคุณภาพ</h3>
+      <p>คัดสรรเมล็ดกาแฟระดับพรีเมียม เพื่อรสชาติที่ดีที่สุด</p>
+    </div>
+
+    <div class="service-card">
+      <h3>สั่งล่วงหน้า</h3>
+      <p>สั่งผ่านแอป รับเครื่องดื่มได้ทันที ไม่ต้องรอคิว</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Starbucks Rewards</h3>
+      <p>สะสมดาว แลกรับเครื่องดื่มฟรี และสิทธิพิเศษมากมาย</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer id="footer">
+  <p>&copy; 2025 Starbucks Coffee Company</p>
+  <p>ติดต่อ: 67160010@go.buu.ac.th | โทร: 087-654-1100</p>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top">↑</button>
+
 </body>
 </html>
+
