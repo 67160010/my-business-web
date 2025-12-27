@@ -17,22 +17,18 @@ root/
 
 
 ## ลิงก์เข้าสู่หน้าต่างๆ
-### หน้าแรก 
-[เปิดหน้าแรก](index.html)  
-![Home ](images/index11.png)
-![Home ](images/index22.png)
+### หน้าแรก
+![Home](images/index11.png)
+![Home](images/index22.png)
 
-### เกี่ยวกับเรา 
-[เปิดหน้าเกี่ยวกับเรา](about.html)  
-![About ](images/about11.png)
-![About ](images/about22.png)
+### เกี่ยวกับเรา
+![About](images/about11.png)
+![About](images/about22.png)
 
-### บริการของเรา 
-[เปิดหน้าบริการ](services.html)  
-![Services ](images/services1.png)
-![Services ](images/services2.png)
+### บริการของเรา
+![Services](images/services1.png)
+![Services](images/services2.png)
 
-### ติดต่อเรา 
-[เปิดหน้าติดต่อเรา](contact.html)  
-![Contact ](images/contact1.png)
-![Contact ](images/contact2.png)
+### ติดต่อเรา
+![Contact](images/contact1.png)
+![Contact](images/contact2.png)
